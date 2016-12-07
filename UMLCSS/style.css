@@ -1,0 +1,26 @@
+*{margin:0 auto;}
+
+div, section, footer{padding: 5px 15px; border-radius: 5px;}
+.content{width: 960px;}
+input[type=text]{width: 150px;}
+
+/*header*/
+form > .header h2{text-align: center;}
+form > .header div{border: 1px solid darkgray; height: 40px; line-height: 40px; margin-top: 10px;}
+form > .header div span{display: block; float: left; width: 295px; font-weight: bold;}
+
+/*section*/
+.center section{padding: 0; border: 1px solid darkgray; line-height: 30px; padding-bottom: 20px; margin-top: 10px;}
+.center section header{background-color: lightgray; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;}
+.center section header h4{line-height: 45px; padding-left: 15px;}
+.center section ol{margin-left: 15px;}
+.center section span{line-height: 40px; font-weight: bold;}
+
+#correct+span{color: green;}
+#incorrect+span{color: red;}
+
+textarea{height: 80px; width: 98%;}
+
+/*footer*/
+footer{text-align: center;}
+footer input{background-color: royalblue; color: white; padding: 5px 10px; border-radius: 5px;}
